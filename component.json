@@ -1,5 +1,5 @@
 {
-	"name": "mousewheel",
+  "name": "mousewheel",
 	"description": "A jQuery plugin that adds cross-browser mouse wheel support.",
 	"keywords": [
 		"mousewheel",
@@ -8,19 +8,15 @@
 	],
 	"version": "3.1.1",
 	"author": {
-		"name": "Guillermo Rauch",
-		"url": "http://devthought.com/"
+		"name": "Brandon Aaron",
+		"url": "http://brandonaaron.net"
 	},
 	"license": "MIT",
 	"dependencies": {
-		"component/jquery": "*",
-		"richthegeek/scrollwheel": "*"
+		"component/jquery": "*"
 	},
-	"main": "antiscroll.js",
+	"main": "jquery.mousewheel.js",
 	"scripts": [
-		"antiscroll.js"
-	],
-	"styles": [
-		"antiscroll.css"	
+		"jquery.mousewheel.js"
 	]
 }
